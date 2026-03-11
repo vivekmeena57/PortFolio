@@ -47,7 +47,7 @@ export default function Contact() {
             className="border border-gray-400 w-full h-10 rounded-lg flex items-center justify-center gap-2 hover:border-blue-300 hover:scale-101 active:scale-95 transition"
           >
             <MdOutlineEmail className="text-xl sm:text-lg" />
-            vivekmeena572004@gmail.com
+            Email Me
           </button>
 
           <button
