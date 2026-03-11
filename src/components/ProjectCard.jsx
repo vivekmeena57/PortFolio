@@ -1,6 +1,6 @@
 export default function ProjectCard({ ProjectDetails }) {
   return (
-    <div className="p-4 h-150 max-w-sm border-2 rounded-2xl border-gray-500 shadow-md hover:shadow-blue-300 transition">
+    <div className="p-4 max-w-sm border-2 rounded-2xl border-gray-500 shadow-md hover:shadow-blue-300 transition flex flex-col">
       {/* Title */}
       <div className="text-xl font-semibold flex justify-center border-b-2 border-gray-500 mb-4 text-blue-300">
         {ProjectDetails.title}
@@ -47,7 +47,7 @@ export default function ProjectCard({ ProjectDetails }) {
       </div>
 
       {/* Image */}
-      <div className="border mt-6 h-40 rounded-md overflow-hidden">
+      <div className="border mt-6 h-40 rounded-md overflow-hidden ">
         <img
           src={ProjectDetails.image}
           alt={ProjectDetails.title}

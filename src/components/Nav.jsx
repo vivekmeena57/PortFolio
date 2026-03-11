@@ -39,7 +39,7 @@ function Nav() {
           variants={container}
           initial="hidden"
           animate="show"
-          className="flex gap-10 text-lg "
+          className="flex gap-8 text-lg "
         >
           <motion.li  variants={item} className="active:scale-95 hover:scale-102">
             <a href="#home" className="flex items-center gap-2">

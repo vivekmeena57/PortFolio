@@ -75,7 +75,7 @@ export default function Project() {
       {/* Cards */}
       <div className="flex flex-wrap justify-center gap-10 mt-12">
         {projects.map((project, index) => (
-          <motion.span
+          <motion.span key={index}
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.8, delay: 0.5 }}
